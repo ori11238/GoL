@@ -1,0 +1,24 @@
+#container {
+	width: 100%;
+}
+
+#original_grid, #grid{
+	background-color: lightgrey;
+	border: 1px solid black;
+	margin: 15px auto;
+
+}
+
+#original_grid td, #grid td {
+	border: 1px solid black;
+	height: 15px;
+	width: 15px;
+}
+
+.alive {
+	background-color: dodgerblue ;
+}
+
+.dead { 
+	background-color: lightgrey;
+}
